@@ -82,14 +82,7 @@
       >
         <div class="md:w-1/2 py-4">
           <h1 class="text-xl font-semibold text-black mb-2">Transactions</h1>
-          <div class="flex flex-col gap-1">
-            <div
-              class="bg-white flex justify-between items-center p-5 rounded shadow"
-            >
-              <h1 class="text-base text-gray-400">iphone</h1>
-              <p class="text-base text-gray-400">$<span>12000.00</span></p>
-            </div>
-          </div>
+          <div id="addTransaction" class="flex flex-col gap-1"></div>
         </div>
         <div class="md:w-1/2 py-4">
           <h1 class="text-xl font-semibold text-black mb-2">
@@ -100,6 +93,7 @@
               Description
             </legend>
             <input
+              id="text"
               type="text"
               class="input w-full bg-white"
               placeholder="Enter Description"
